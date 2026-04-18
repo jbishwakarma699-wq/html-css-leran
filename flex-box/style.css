@@ -3,13 +3,22 @@
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
-    
 }
 
 .container{
+    width: 1200px;
+    margin-inline: auto;
+    background-color: aqua;
+    padding : 2rem 3rem;
+
+}
+.flex-box{
     display: flex;
-    
+    flex-direction: column;
+    gap: 20px;
+    justify-: center;
 }
 .item{
     background-color: antiquewhite;
+    align-items: center;
 }
